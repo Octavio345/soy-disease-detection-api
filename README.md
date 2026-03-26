@@ -62,7 +62,7 @@ projeto/
 
 **Exemplo de `classes.json`:**
 ```json
-["Ferrugem Asiática", "Mancha Alvo", "Saudável"]
+["Ferrugem Asiática", "Cercospora", "Ataque de Largata", "Saudável"],
 ```
 
 ---
@@ -110,7 +110,7 @@ Retorna informações gerais sobre a API: status, modelo carregado e classes dis
 {
   "status": "online",
   "modelo": "EfficientNetB3",
-  "classes": ["Ferrugem Asiática", "Mancha Alvo", "Saudável"],
+  "classes": ["Ferrugem Asiática", "Cercospora", "Ataque de Largata", "Saudável"],
   "uso": "POST /predict com uma imagem"
 }
 ```
