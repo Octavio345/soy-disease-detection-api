@@ -30,6 +30,14 @@
 
 ---
 
+## Testando a API pelo navegador
+
+Caso queira testar rapidamente a API sem escrever código, acesse a documentação interativa do FastAPI:
+
+Link completo: https://TccAmsAmericana-api-doencas-soja.hf.space/docs
+
+Lá você pode enviar imagens diretamente para o endpoint /predict e visualizar as respostas em tempo real.
+
 ## Visão Geral
 
 API REST assíncrona construída com **FastAPI** para classificação de doenças em lavouras de soja. O modelo recebe uma imagem da plantação e retorna a doença detectada, o percentual de confiança e as probabilidades de todas as classes.
@@ -289,6 +297,14 @@ def batch_predict(folder: str, base_url: str = "http://localhost:8000") -> list:
 - [Confidence Level](#confidence-level)
 
 ---
+
+## Testing the API in the browser
+
+If you want to quickly test the API without writing any code, access the interactive FastAPI documentation:
+
+Full link: https://TccAmsAmericana-api-doencas-soja.hf.space/docs
+
+There you can send images directly to the /predict endpoint and see responses in real time.
 
 ## Overview
 
