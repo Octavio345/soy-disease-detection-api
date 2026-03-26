@@ -322,7 +322,7 @@ project/
 
 **Example `classes.json`:**
 ```json
-["Asian Rust", "Target Spot", "Mosaic", "Healthy"]
+["Asian Rust", "Cercospora", "Insect Damage", "Healthy"]
 ```
 
 ---
@@ -370,7 +370,7 @@ Returns general API information: status, loaded model, and available classes.
 {
   "status": "online",
   "modelo": "EfficientNetB3",
-  "classes": ["Asian Rust", "Target Spot", "Mosaic", "Healthy"],
+  "classes": ["Asian Rust", "Cercospora", "Insect Damage", "Healthy"],
   "uso": "POST /predict with an image"
 }
 ```
